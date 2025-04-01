@@ -35,23 +35,9 @@ This project focuses on optimizing sector-specific investment portfolios in the 
 - **Optimization Tools** (cvxpy, scipy.optimize)
 - **Visualization** (Dash, Plotly)
 
-## Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/sector-portfolio-optimization.git
-   ```
-2. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-3. Run the analysis:
-   ```sh
-   python main.py
-   ```
-
 ## Usage
-- Modify parameters in `config.py` to adjust sector weights and rebalancing frequency.
-- Run `dashboard.py` to visualize results interactively.
+- Run the notebooks in the order `Data_Preprocess.ipynb`, `Sector_Analysis.ipynb`, `MVO_Model.ipynb` and `BackTesting.ipynb`.
+- Run `monthwise_dashboard.py` to visualize results interactively.
 
 ## References
 - [Jaydip Sen & Abhishek Dutta, 2022] – Sector-based portfolio optimization.
